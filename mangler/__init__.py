@@ -33,14 +33,15 @@ There is plenty more that could be done to make the attacker's work even
 harder.  But it would require compiling a C extension or, even better,
 compiling a custom python interpreter.  If you think you'd like to go down that
 road, I provide distributing-pyton-apps consulting and for a modest fee
-I'll be happy to (a) talk you out of it, or (b) implement something for you.
+I'll be happy to (a) talk you out of it, or failing that, (b) implement a
+custom solution for you.
 
 
 Sounds awesome, how do I use it?
 --------------------------------
 
 If you're just using py2exe, py2app or cxfreeze in their basic form, you
-can just call the "mangler" script with the path to your frozen app:
+can call the "mangler" script with the path to your frozen app:
 
     mangler /path/to/frozen/application
 
